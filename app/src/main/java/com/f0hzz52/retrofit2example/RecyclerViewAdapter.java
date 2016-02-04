@@ -80,7 +80,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             @Override
             public void onFailure(Throwable t) {
                 // DO NETWORK ERROR HANDLER
-                Log.d("Error", t.getMessage());
+                Log.e("Error", t.getMessage());
             }
         });
 
